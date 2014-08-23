@@ -3,10 +3,9 @@
 In addition to the descriptions below, the variable data follows a naming convention to ease understanding.  
 Variables that begin with a “t” are time domain signals.  Those with an “f” are frequency domain signals.  
 Variables that contain “acc” are from the accelometer, those that contain “gyro” are from the gyroscope 3-axial raw data.
-
 Variables that contain “mean” have the mean of the variable in the relevant time period.  Those that contain “std” have the standard deviation.
+Finally the last portion may contain an X, Y, or Z which indicates the axis measured.
 
-Finally the last portion may contain an X, Y, or Z which indicates the axis measured.</br>
 
 <h2>Subject</h2>
 	This is the subject identifier, a numeric 1-30.
