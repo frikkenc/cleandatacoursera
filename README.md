@@ -2,7 +2,7 @@ cleandatacoursera
 =================
 
 <h3>Overview</h3>
-This repository contains an R script (r_analysis) which creates a tidy data set from the UCI HAR raw data set.  As an overview, it combines the training and test data, merges it with the subject and activity field, provides readable headers and activity names, and extracts only the means and standard deviations.
+This repository contains an R script (r_analysis) which creates a tidy data set from the UCI HAR raw data set.  As an overview, it combines the training and test data, merges it with the subject and activity field, provides readable headers and activity names, and extracts only the means and standard deviations.  The UCI HAR data set was downloaded from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip on Aug 15, 2014.
 
 <h3>Running the script</h3>
 The script requires you have unzipped the UCI HAR data into your working directory with all the files and folder structure in tact.  Once you have done this, simply load the script into your R workspace of choice.  The command mergedTable <- run_analysis() will provide you with the tidy data set.
